@@ -1,16 +1,26 @@
 import React from "react";
+import "../App.css";
 
 function About() {
   return (
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I’m a passionate Software Engineer experienced in building web and
-        mobile applications using React, Node.js, ASP.NET, and Flutter.
-        I enjoy creating clean, scalable, and user-friendly solutions.
-      </p>
+    <section className="page">
+      <h2>Projects</h2>
+
+      <div className="project">
+        <h3>Doctor Booking App</h3>
+        <p>Flutter + Node.js app with role-based authentication and live chat.</p>
+      </div>
+
+      <div className="project">
+        <h3>ERP Messaging System</h3>
+        <p>Angular + .NET + SignalR real-time messaging system.</p>
+      </div>
+
+      <div className="project">
+        <h3>Inventory Management System</h3>
+        <p>ASP.NET + SQL Server system with Windows authentication.</p>
+      </div>
     </section>
   );
 }
-
 export default About;
