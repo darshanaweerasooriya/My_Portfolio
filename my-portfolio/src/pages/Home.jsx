@@ -2,11 +2,24 @@ import React from "react";
 import "../App.css";
 import profile from "../assets/profilepic.jpg";
 
+import {
+  FaReact, FaAngular, FaNodeJs, FaJava, FaPython, FaGithub, FaHtml5, FaCss3,
+  FaBootstrap, FaGitAlt, FaFigma, FaDocker
+} from "react-icons/fa";
+import {
+  SiTypescript, SiJavascript, SiDart, SiFlutter, SiKotlin, SiMysql, SiDotnet, SiMongodb, SiFirebase, SiTensorflow, SiTailwindcss, SiExpress,
+
+} from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
+import { RiFirebaseFill } from "react-icons/ri";
+import { DiPhotoshop } from "react-icons/di";
+
+
 function Home() {
   return (
     <>
       {/* HERO */}
-    <section id="home" className="hero fade-in">
+      <section id="home" className="hero fade-in">
         <div className="container hero-content">
 
           <div className="hero-text">
@@ -44,7 +57,7 @@ function Home() {
       </section>
 
       {/* ABOUT */}
-    <section id="about" className="fade-in">
+      <section id="about" className="fade-in">
         <div className="container">
 
           <h2>About Me</h2>
@@ -86,21 +99,115 @@ function Home() {
       {/* SKILLS */}
       <section id="skills" className="fade-in">
         <div className="container">
-          <h2>Skills</h2>
+          <h2>Technical Skills</h2>
 
-          <div className="skills-grid">
-            <div className="skill-card">React</div>
-            <div className="skill-card">Node.js</div>
-            <div className="skill-card">ASP.NET</div>
-            <div className="skill-card">Flutter</div>
-            <div className="skill-card">MongoDB</div>
-            <div className="skill-card">SQL Server</div>
+          <div className="tech-grid">
+
+            {/* Languages & Core */}
+            <div className="tech-item" data-name="C#">
+              <TbBrandCSharp size={50} style={{ color: "#239120" }} /> {/* Microsoft C# */}
+            </div>
+
+            <div className="tech-item" data-name="Java">
+              <FaJava size={50} style={{ color: "#007396" }} />
+            </div>
+
+            <div className="tech-item" data-name="Python">
+              <FaPython size={50} style={{ color: "#3776AB" }} />
+            </div>
+
+            <div className="tech-item" data-name="Kotlin">
+              <SiKotlin size={50} style={{ color: "#7F52FF" }} />
+            </div>
+
+            <div className="tech-item" data-name="Dart">
+              <SiDart size={50} style={{ color: "#0175C2" }} />
+            </div>
+
+            <div className="tech-item" data-name="JavaScript">
+              <SiJavascript size={50} style={{ color: "#F7DF1E" }} />
+            </div>
+
+            <div className="tech-item" data-name="TypeScript">
+              <SiTypescript size={50} style={{ color: "#3178C6" }} />
+            </div>
+
+            {/* Frameworks */}
+            <div className="tech-item" data-name="React">
+              <FaReact size={50} style={{ color: "#61DAFB" }} />
+            </div>
+
+            <div className="tech-item" data-name="Angular">
+              <FaAngular size={50} style={{ color: "#DD0031" }} />
+            </div>
+
+            <div className="tech-item" data-name="Node.js">
+              <FaNodeJs size={50} style={{ color: "#339933" }} />
+            </div>
+
+            <div className="tech-item" data-name="ASP.NET">
+              <SiDotnet size={50} style={{ color: "#512BD4" }} />
+            </div>
+
+            <div className="tech-item" data-name="Flutter">
+              <SiFlutter size={50} style={{ color: "#02569B" }} />
+            </div>
+
+            <div className="tech-item" data-name="React Native">
+              <FaReact size={50} style={{ color: "#61DAFB" }} />
+            </div>
+
+            {/* Web */}
+            <div className="tech-item" data-name="HTML">
+              <FaHtml5 size={50} style={{ color: "#E34F26" }} />
+            </div>
+
+            <div className="tech-item" data-name="CSS">
+              <FaCss3 size={50} style={{ color: "#1572B6" }} />
+            </div>
+
+            <div className="tech-item" data-name="Bootstrap">
+              <FaBootstrap size={50} style={{ color: "#7952B3" }} />
+            </div>
+
+            <div className="tech-item" data-name="Tailwind CSS">
+              <SiTailwindcss size={50} style={{ color: "#06B6D4" }} />
+            </div>
+
+            {/* Databases */}
+            <div className="tech-item" data-name="MongoDB">
+              <SiMongodb size={50} style={{ color: "#47A248" }} />
+            </div>
+
+            <div className="tech-item" data-name="MySQL">
+              <SiMysql size={50} style={{ color: "#4479A1" }} />
+            </div>
+
+            <div className="tech-item" data-name="Firebase">
+              <SiFirebase size={50} style={{ color: "#FFCA28" }} />
+            </div>
+
+            {/* Tools */}
+            <div className="tech-item" data-name="Git">
+              <FaGitAlt size={50} style={{ color: "#F05032" }} />
+            </div>
+
+            <div className="tech-item" data-name="GitHub"> <FaGithub size={50} style={{ color: "#ffffff" }} /> </div>
+
+            <div className="tech-item" data-name="Figma">
+              <FaFigma size={50} style={{ color: "#F24E1E" }} />
+            </div>
+
+            <div className="tech-item" data-name="TensorFlow">
+              <SiTensorflow size={50} style={{ color: "#FF6F00" }} />
+            </div>
+
           </div>
         </div>
       </section>
 
       {/* PROJECTS */}
-    <section id="projects" className="fade-in">
+      <section id="projects" className="fade-in">
         <div className="container">
           <h2>Projects</h2>
 
@@ -168,7 +275,7 @@ function Home() {
 
           </div>
         </div>
-   
+
         <div className="container">
 
 
@@ -243,7 +350,7 @@ function Home() {
         </div>
       </section>
       {/* Articles */}
-     <section id="contact" className="fade-in">
+      <section id="contact" className="fade-in">
         <div className="container">
           <h2>Articles</h2>
 
@@ -290,13 +397,13 @@ function Home() {
             </div>
 
             {/* Project 3 */}
-            <div className="project-card mb-2">
+            <div className="project-card mb-4">
               <div className="project-image">
                 <img src=".\src\assets\ftapp.jpg" alt="ERP System" />
               </div>
 
               <div className="project-content">
-              
+
                 <h3>Software Architecture A-Z: A Complete Guide for Developers and Teams</h3>
                 <p>Software architecture is the foundation of every successful software project.
                   Whether you’re building a simple app or a complex system,
@@ -306,7 +413,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-              <a href="#" className="btn primary">Read the article</a>
+                <a href="#" className="btn primary">Read the article</a>
               </div>
             </div>
 
@@ -318,12 +425,21 @@ function Home() {
       {/* CONTACT */}
       <section id="contact" className="fade-in">
         <div className="container">
-          <h2>Contact</h2>
+          <h2>Contact Me</h2>
 
-          <div className="contact-box">
-            <p>Email: darshana@email.com</p>
-            <p>LinkedIn: linkedin.com/in/darshana</p>
-            <p>GitHub: github.com/darshana</p>
+          <div className="contact-container">
+            <div className="contact-info">
+              <p>Email: <a href="mailto:darshana@email.com">darshana@email.com</a></p>
+              <p>LinkedIn: <a href="https://linkedin.com/in/darshana" target="_blank" rel="noreferrer">linkedin.com/in/darshana</a></p>
+              <p>GitHub: <a href="https://github.com/darshana" target="_blank" rel="noreferrer">github.com/darshana</a></p>
+            </div>
+
+            <form className="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" className="btn primary">Send Message</button>
+            </form>
           </div>
         </div>
       </section>
