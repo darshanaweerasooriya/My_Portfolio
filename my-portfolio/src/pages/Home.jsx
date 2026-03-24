@@ -228,8 +228,8 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+                <a href="https://github.com/darshanaweerasooriya/ChildCare.git" className="btn primary">View Project</a>
+                <a href="https://github.com/darshanaweerasooriya/ChildCare.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
@@ -248,8 +248,8 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+                <a href="https://github.com/darshanaweerasooriya/Hero-dev-.git" className="btn primary">View Project</a>
+                <a href="https://github.com/darshanaweerasooriya/Hero-dev-.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
@@ -268,7 +268,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
+           
                 <a href="#" className="btn secondary">GitHub</a>
               </div>
             </div>
@@ -297,8 +297,8 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+              
+                <a href="https://github.com/darshanaweerasooriya/StationeryPOS.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
@@ -318,10 +318,10 @@ function Home() {
                   progress monitoring, and live coaching boost user motivation and engagement.</p>
               </div>
 
-              <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
+              {/* <div className="project-buttons">
+                <a href="" className="btn primary">View Project</a>
                 <a href="#" className="btn secondary">GitHub</a>
-              </div>
+              </div> */}
             </div>
 
             {/* Project 3 */}
@@ -341,8 +341,8 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+               
+                <a href="https://github.com/Plymouth-University/main-assessment-group-20.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
@@ -371,7 +371,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">Read the article</a>
+                <a href="https://medium.com/@darshanaweerasooriya11/introduction-to-artificial-intelligence-machine-learning-deep-learning-81b6b29d98d7" className="btn primary">Read the article</a>
 
               </div>
             </div>
@@ -392,7 +392,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">Read the article</a>
+                <a href="https://medium.com/@darshanaweerasooriya11/how-software-teams-deploy-projects-to-production-every-week-b791494f6fe2" className="btn primary">Read the article</a>
               </div>
             </div>
 
@@ -413,7 +413,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">Read the article</a>
+                <a href="https://medium.com/@darshanaweerasooriya11/software-architecture-a-z-a-complete-guide-for-developers-and-teams-b719b3f6d640" className="btn primary">Read the article</a>
               </div>
             </div>
 
@@ -429,9 +429,9 @@ function Home() {
 
           <div className="contact-container">
             <div className="contact-info">
-              <p>Email: <a href="mailto:darshana@email.com">darshana@email.com</a></p>
-              <p>LinkedIn: <a href="https://linkedin.com/in/darshana" target="_blank" rel="noreferrer">linkedin.com/in/darshana</a></p>
-              <p>GitHub: <a href="https://github.com/darshana" target="_blank" rel="noreferrer">github.com/darshana</a></p>
+              <p>Email: <a href="mailto:darshana@email.com">darshanaweerasooriya11@gmail.com</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/darshana-weerasooriya-86a2ba215/" target="_blank" rel="noreferrer">linkedin.com/in/darshana</a></p>
+              <p>GitHub: <a href="https://github.com/darshanaweerasooriya" target="_blank" rel="noreferrer">github.com/darshana</a></p>
             </div>
 
             <form className="contact-form">
