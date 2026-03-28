@@ -1,6 +1,16 @@
 import React from "react";
 import "../App.css";
 import profile from "../assets/profilepic.jpg";
+import fitness from "../assets/fitness.png"
+import hero from "../assets/smedia.jpg"
+import fitapp from "../assets/ftapp.jpg"
+import pos from "../assets/pos1.png"
+import  skindapp from "../assets/poster.jpg"
+import furniturapp from "../assets/Picture1.jpg"
+import Ai from "../assets/Ai.webp"
+import sdlc from "../assets/sdlc.webp"
+import sd from "../assets/sd.webp"
+
 
 import {
   FaReact, FaAngular, FaNodeJs, FaJava, FaPython, FaGithub, FaHtml5, FaCss3,
@@ -27,7 +37,7 @@ function Home() {
               Hi, I'm <span className="highlight-text">Darshana Weerasooriya</span>
             </h1>
 
-            <h2 className="title">Software Engineer</h2>
+            <h2 className="title">Full Stack Software Engineer | React • Node.js • .NET • Flutter</h2>
 
             <p className="description">
               Full Stack Developer specializing in React, Node.js, ASP.NET and Flutter.
@@ -35,7 +45,7 @@ function Home() {
             </p>
 
             <div className="hero-buttons">
-              <a href="/Darshana_Weerasooriya_CV.pdf" className="btn primary" download>
+              <a href="/Darshana Weerasooriya_Resume.pdf" className="btn primary" download>
                 Download CV
               </a>
 
@@ -216,7 +226,7 @@ function Home() {
             {/* Project 1 */}
             <div className="project-card">
               <div className="project-image">
-                <img src=".\src\assets\poster.jpg" alt="Doctor App" />
+                  <img src={skindapp} alt="doctor app" />
               </div>
 
               <div className="project-content">
@@ -228,15 +238,15 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+                <a href="https://github.com/darshanaweerasooriya/ChildCare.git" className="btn primary">View Project</a>
+                <a href="https://github.com/darshanaweerasooriya/ChildCare.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
             {/* Project 2 */}
             <div className="project-card">
               <div className="project-image">
-                <img src=".\src\assets\smedia.jpg" alt="Resort App" />
+                <img src={hero}alt="Resort App" />
               </div>
 
               <div className="project-content">
@@ -248,15 +258,15 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+                <a href="https://github.com/darshanaweerasooriya/Hero-dev-.git" className="btn primary">View Project</a>
+                <a href="https://github.com/darshanaweerasooriya/Hero-dev-.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
             {/* Project 3 */}
             <div className="project-card mb-2">
               <div className="project-image">
-                <img src=".\src\assets\ftapp.jpg" alt="ERP System" />
+                <img src={fitapp} alt="ERP System" />
               </div>
 
               <div className="project-content">
@@ -268,7 +278,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
+           
                 <a href="#" className="btn secondary">GitHub</a>
               </div>
             </div>
@@ -284,7 +294,7 @@ function Home() {
             {/* Project 1 */}
             <div className="project-card">
               <div className="project-image">
-                <img src=".\src\assets\pos1.png" alt="Doctor App" />
+                <img src={pos} alt="Doctor App" />
               </div>
 
               <div className="project-content">
@@ -297,15 +307,15 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+              
+                <a href="https://github.com/darshanaweerasooriya/StationeryPOS.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
             {/* Project 2 */}
             <div className="project-card">
               <div className="project-image">
-                <img src=".\src\assets\fitness.png" alt="Resort App" />
+                <img src={fitness} alt="Resort App" />
               </div>
 
               <div className="project-content">
@@ -318,16 +328,16 @@ function Home() {
                   progress monitoring, and live coaching boost user motivation and engagement.</p>
               </div>
 
-              <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
+              {/* <div className="project-buttons">
+                <a href="" className="btn primary">View Project</a>
                 <a href="#" className="btn secondary">GitHub</a>
-              </div>
+              </div> */}
             </div>
 
             {/* Project 3 */}
             <div className="project-card mb-2">
               <div className="project-image">
-                <img src=".\src\assets\Picture1.jpg" alt="ERP System" />
+                <img src={furniturapp} alt="ERPSystem" />
               </div>
 
               <div className="project-content">
@@ -341,8 +351,8 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">View Project</a>
-                <a href="#" className="btn secondary">GitHub</a>
+               
+                <a href="https://github.com/Plymouth-University/main-assessment-group-20.git" className="btn secondary">GitHub</a>
               </div>
             </div>
 
@@ -350,7 +360,7 @@ function Home() {
         </div>
       </section>
       {/* Articles */}
-      <section id="contact" className="fade-in">
+      <section id="article" className="fade-in">
         <div className="container">
           <h2>Articles</h2>
 
@@ -359,7 +369,7 @@ function Home() {
             {/* Project 1 */}
             <div className="project-card">
               <div className="project-image">
-                <img src=".\src\assets\Ai.webp" alt="Doctor App" />
+                <img src={Ai} alt="Doctor App" />
               </div>
 
               <div className="project-content">
@@ -371,7 +381,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">Read the article</a>
+                <a href="https://medium.com/@darshanaweerasooriya11/introduction-to-artificial-intelligence-machine-learning-deep-learning-81b6b29d98d7" className="btn primary">Read the article</a>
 
               </div>
             </div>
@@ -379,7 +389,7 @@ function Home() {
             {/* Project 2 */}
             <div className="project-card">
               <div className="project-image">
-                <img src=".\src\assets\sdlc.webp" alt="Resort App" />
+                <img src={sdlc} alt="Resort App" />
               </div>
 
               <div className="project-content">
@@ -392,14 +402,14 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">Read the article</a>
+                <a href="https://medium.com/@darshanaweerasooriya11/how-software-teams-deploy-projects-to-production-every-week-b791494f6fe2" className="btn primary">Read the article</a>
               </div>
             </div>
 
             {/* Project 3 */}
             <div className="project-card mb-4">
               <div className="project-image">
-                <img src=".\src\assets\ftapp.jpg" alt="ERP System" />
+                <img src={sd} alt="ERP System" />
               </div>
 
               <div className="project-content">
@@ -413,7 +423,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="btn primary">Read the article</a>
+                <a href="https://medium.com/@darshanaweerasooriya11/software-architecture-a-z-a-complete-guide-for-developers-and-teams-b719b3f6d640" className="btn primary">Read the article</a>
               </div>
             </div>
 
@@ -429,9 +439,9 @@ function Home() {
 
           <div className="contact-container">
             <div className="contact-info">
-              <p>Email: <a href="mailto:darshana@email.com">darshana@email.com</a></p>
-              <p>LinkedIn: <a href="https://linkedin.com/in/darshana" target="_blank" rel="noreferrer">linkedin.com/in/darshana</a></p>
-              <p>GitHub: <a href="https://github.com/darshana" target="_blank" rel="noreferrer">github.com/darshana</a></p>
+              <p>Email: <a href="mailto:darshana@email.com">darshanaweerasooriya11@gmail.com</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/darshana-weerasooriya-86a2ba215/" target="_blank" rel="noreferrer">Darshana Weerasooriya</a></p>
+              <p>GitHub: <a href="https://github.com/darshanaweerasooriya" target="_blank" rel="noreferrer">darshanaweerasooriya</a></p>
             </div>
 
             <form className="contact-form">

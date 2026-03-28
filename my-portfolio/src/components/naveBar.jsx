@@ -13,19 +13,19 @@ function Navbar() {
     <FaLinkedin size={28} title="LinkedIn" />
   </a>
 
-  <a href="https://github.com/darshana" target="_blank" rel="noreferrer">
+  <a href="https://github.com/darshanaweerasooriya" target="_blank" rel="noreferrer">
     <FaSquareGithub size={28} title="GitHub" />
   </a>
 
-  <a href="https://medium.com/@yourusername" target="_blank" rel="noreferrer">
+  <a href="https://medium.com/@darshanaweerasooriya11" target="_blank" rel="noreferrer">
     <FaMedium size={28} title="Medium" />
   </a>
 
-  <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">
+  <a href="https://www.instagram.com/v.i.b.h.a__/" target="_blank" rel="noreferrer">
     <FaInstagram size={28} title="Instagram" />
   </a>
 
-  <a href="https://facebook.com/yourusername" target="_blank" rel="noreferrer">
+  <a href="https://www.facebook.com/profile.php?id=61588554345126" target="_blank" rel="noreferrer">
     <FaSquareFacebook size={28} title="Facebook" />
   </a>
 
@@ -36,7 +36,7 @@ function Navbar() {
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
-          <a href="#articles">Articles</a>
+          <a href="#article">Articles</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
