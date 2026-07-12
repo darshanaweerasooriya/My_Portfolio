@@ -258,7 +258,7 @@ function Home() {
               </div>
 
               <div className="project-buttons">
-                <a href="https://github.com/darshanaweerasooriya/Hero-dev-.git" className="btn primary">View Project</a>
+                <a href="https://hero-dev-opal.vercel.app" className="btn primary">View Project</a>
                 <a href="https://github.com/darshanaweerasooriya/Hero-dev-.git" className="btn secondary">GitHub</a>
               </div>
             </div>
